@@ -1,0 +1,26 @@
+// js,ts,jsx,tsxはRomeでフォーマットする。その他のファイルはPrettierでフォーマットする。
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        // コードの保存時に不要なimportを削除する
+        "source.fixAll": true,
+        "source.organizeImports": true,
+        // 不要な空白と空行を削除する
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "rome.rome"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "rome.rome"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "rome.rome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "rome.rome"
+    }
+}
