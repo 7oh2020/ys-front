@@ -2,6 +2,7 @@
 
 これは[夢色水車](https://ys.7oh.dev/)のフロントエンドです。
 「こんなのあったらいいな」という人々の要望をカテゴリ別に閲覧できます。
+バックエンド API の[ys-back](https://github.com/7oh2020/ys-back)と連携して Static Generation を実現できます。
 
 ## 特徴
 
